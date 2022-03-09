@@ -46,7 +46,6 @@
               <examplecanvas
                 class="panel-cell top"
                 ref="hi"
-                @click="test"
                 :do="this.videodom"
                 :label="0"
                 :TMN="this.truncatedMobileNet"
@@ -58,7 +57,6 @@
               <examplecanvas
                 class="panel-cell left"
                 ref="hi"
-                @click="test"
                 :do="this.videodom"
                 :label="3"
                 :TMN="this.truncatedMobileNet"
@@ -70,7 +68,6 @@
               <examplecanvas
                 class="panel-cell right"
                 ref="hi"
-                @click="test"
                 :do="this.videodom"
                 :label="1"
                 :TMN="this.truncatedMobileNet"
@@ -82,7 +79,6 @@
               <examplecanvas
                 class="panel-cell bottom"
                 ref="hi"
-                @click="test"
                 :do="this.videodom"
                 :label="2"
                 :TMN="this.truncatedMobileNet"
